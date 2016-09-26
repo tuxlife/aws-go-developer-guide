@@ -138,8 +138,8 @@ when you want to provide the config profile, or override the shared config state
     })
 
     // Force enable Shared Config support
-    sess, err := session.NewSessionWithOptions(session.Optons{
-        SharedConfigState: SharedConfigEnable,
+    sess, err := session.NewSessionWithOptions(session.Options{
+        SharedConfigState: session.SharedConfigEnable,
     })
 
 Deprecated ``New``
